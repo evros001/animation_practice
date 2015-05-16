@@ -1,0 +1,21 @@
+#color_change {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: color_change;
+  -webkit-animation-duration: 4s;
+/*  animation-name: color_change;
+  animation-duration: 4s;*/
+}
+
+@-webkit-keyframes color_change {
+   {background-color: red}
+   {background-color: blue}
+}
+
+/*@keyframes color_change {
+  from {background-color: red}
+  to {background-color: blue }
+}*/
+
+
